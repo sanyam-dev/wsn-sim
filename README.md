@@ -13,6 +13,13 @@ That might be a lot of data, and we would need to store it on a database, so we 
 AND the most important feature of all this is to be able to use customised protocols to compare network performance,
 We need to figure out a way to input the data transmission protocol to simulate the node behaviour. We might need to write some extra code to add some default libraries with a layer of abstraction maybe to provide the customisation which can be done later. Or some way to import the file via an arguement and use the function directly.
 
+## Graphs and visualisation,
 
+Creating graphs and visualising the results will be an important part of this process
+We need to have a display port, and a way to stream it via a server. 
+Live metrics of the latency of the network
+
+
+To get started, let's use the existing `node.py` and `network.py` code and use it to create a `message.py` file for creating the class `message` and have some properties based on the context above. 
 
 
