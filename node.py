@@ -116,7 +116,7 @@ class node:
 		- Node: receiving node
 		"""
 		if(self.current_energy <= self.critical_energy or
-		   Node.current_energy <= Node.critical_energy):
+			Node.current_energy <= Node.critical_energy):
 			return -1
 
 		et = self.energy_for_transmission(k, d)
